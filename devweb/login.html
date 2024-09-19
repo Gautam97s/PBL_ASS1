@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="" alt="Logo" />
+        <ul>
+            <li><a href="index.html">Jobs</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+        <div class="buttons">
+            <button class="log"><a href="login.html">Login</a></button>
+            <button class="regi"><a href="register.html">Register</a></button>
+        </div>
+    </nav>
+    <div class="bg">
+        <div class="container">
+            <div class="logo">J</div>
+            <h1 class="reg">Please Login</h1>
+            <div class="inp">
+                <input class="mail" id="email" type="email" placeholder="Email address" />
+                <input class="pass" id="password" type="password" placeholder="Password" />
+            </div>
+            <div class="remember">
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember me</label>
+            </div>
+            <button class="btn" onclick="validateForm()">Login</button>
+        </div>
+        <div class="containR">
+            <button class="continue-button">login with Google</button>
+            <button class="apple-button">login with Apple Id</button>
+        </div>
+        <div class="copyright">&copy; 2017-2024</div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
